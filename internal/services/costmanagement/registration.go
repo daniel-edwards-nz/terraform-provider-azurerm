@@ -26,6 +26,7 @@ func (r Registration) Resources() []sdk.Resource {
 		SubscriptionCostManagementExportResource{},
 		SubscriptionCostManagementViewResource{},
 		ResourceGroupCostManagementViewResource{},
+		ManagementGroupCostManagementViewResource{},
 		CostManagementScheduledActionResource{},
 		AnomalyAlertResource{},
 	}
